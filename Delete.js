@@ -13,7 +13,7 @@ if (confirmation) {
         menuitems[i].click();
       }
     }
-    requestAnimationFrame(run);
+    setTimeout(run, 100);
   }
   run();
 } else {
