@@ -1,4 +1,4 @@
-const confirmation = confirm("Are you sure you want to DELETE all of your chats?");
+const confirmation = confirm("Are you sure you want to UNARCHIVE all of your chats?");
 
 if (confirmation) {
   function run() {
